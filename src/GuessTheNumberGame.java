@@ -23,7 +23,7 @@ public class GuessTheNumberGame {
     System.out.println("*               Welcome to GuessTheNumber            *" + RED_COLOR);
     System.out.println("*                       Game                         *" + RED_COLOR);
     System.out.println("*                                                    *" + RED_COLOR);
-    System.out.println("******************************************************" + RED_COLOR);
+    System.out.println("******************************************************\n" + RED_COLOR);
     System.out.print(RESET_COLOR);
     
         // javac src/GuessTheNumberGame.java
@@ -54,12 +54,15 @@ public class GuessTheNumberGame {
             player1.getGuesses().add(guess1);
 
             if (guess1 == targetNumber) {
-                System.out.println(YELLOW_BOLD + "Congratulations, " + RESET_COLOR + player1.getName() + YELLOW_BOLD + " !You guessed the number!" + RESET_COLOR);
+                System.out.println(YELLOW_BOLD + "\nCongratulations, " + RESET_COLOR + player1.getName() + YELLOW_BOLD + "! You guessed the number!" + RESET_COLOR);
+                System.out.println(YELLOW_BOLD + " /\\_/\\ " + RESET_COLOR);
+                System.out.println(YELLOW_BOLD + "( o.o ) " + RESET_COLOR);
+                System.out.println(YELLOW_BOLD + " > ^ <  \n" + RESET_COLOR);
                 break;
             } else if (guess1 < targetNumber) {
-                System.out.println("Too " + GREEN_BOLD + "low! " + RESET_COLOR + player1.getName() + ", try again.");
+                System.out.println("Too " + GREEN_BOLD + "low! " + RESET_COLOR + player1.getName() + ", try again.\n");
             } else {
-                System.out.println("Too " + RED_BOLD + "high! " + RESET_COLOR + player1.getName() + ", try again.");
+                System.out.println("Too " + RED_BOLD + "high! " + RESET_COLOR + player1.getName() + ", try again.\n");
             }
 
             // Turno del segundo jugador
@@ -67,12 +70,15 @@ public class GuessTheNumberGame {
             player2.getGuesses().add(guess2);
 
             if (guess2 == targetNumber) {
-                System.out.println(YELLOW_BOLD + "Congratulations, " + RESET_COLOR + "Computer Player" + YELLOW_BOLD + " !You guessed the number!" + RESET_COLOR);
+                System.out.println(RED_BOLD + "\nOh no! Computer Player" + " guessed the number! Better luck next time.");
+                System.out.println(RED_BOLD + "  (._.)\n" +
+                        "   <|>\n" +
+                        "   /_\\\n" + RESET_COLOR);
                 break;
             } else if (guess2 < targetNumber) {
-                System.out.println("Too " + GREEN_BOLD + "low! " + RESET_COLOR + "Computer Player" + ", try again.");
+                System.out.println("Too " + GREEN_BOLD + "low! " + RESET_COLOR + "Computer Player" + ", try again.\n");
             } else {
-                System.out.println("Too " + RED_BOLD + "high! " + RESET_COLOR + "Computer Player" + ", try again.");
+                System.out.println("Too " + RED_BOLD + "high! " + RESET_COLOR + "Computer Player" + ", try again.\n");
             }
         }
     }

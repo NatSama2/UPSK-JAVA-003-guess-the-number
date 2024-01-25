@@ -25,7 +25,7 @@ public class HumanPlayer extends Player {
 
     setName(CYAN_BOLD + playerName + RESET_COLOR);
 
-    System.out.println(YELLOW_TEXT + "Hello, " + RESET_COLOR + getName() + YELLOW_TEXT + " !Let's play!" + RESET_COLOR);
+    System.out.println(YELLOW_TEXT + "Hello, " + RESET_COLOR + getName() + YELLOW_TEXT + " !Let's play!\n" + RESET_COLOR);
   }
   
   // Ingresar número
