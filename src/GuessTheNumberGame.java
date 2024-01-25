@@ -17,7 +17,7 @@ public class GuessTheNumberGame {
   }
 
   public static void main(String[] args) {
-    System.out.println(" " + RED_COLOR);
+    System.out.println(" " + RED_COLOR );
     System.out.println("******************************************************" + RED_COLOR);
     System.out.println("*                                                    *" + RED_COLOR);
     System.out.println("*               Welcome to GuessTheNumber            *" + RED_COLOR);
@@ -29,30 +29,50 @@ public class GuessTheNumberGame {
         // javac src/GuessTheNumberGame.java
         // java -cp . src.GuessTheNumberGame
 
-        // Se muestra el número aleatorio generado
+        // Generar el número aleatorio
         int randomNumber = generateRandomNumber();
         System.out.println("Random number generated: " + randomNumber);
 
+        // Crear jugadores
         HumanPlayer humanPlayer = new HumanPlayer();
         humanPlayer.enterName();
 
-        // Juego para un solo jugador
-        playGameSoloPlayer(randomNumber, humanPlayer);
+        ComputerPlayer computerPlayer = new ComputerPlayer();
+
+        // Juego con ambos jugadores
+        playGame(randomNumber, humanPlayer, computerPlayer);
+
+        // Mostrar la historia de suposiciones al final del juego
+        displayGuessHistory(humanPlayer);
+        // displayGuessHistory(computerPlayer);
     }
 
-    private static void playGameSoloPlayer(int targetNumber, Player player) {
+    private static void playGame(int targetNumber, Player player1, Player player2) {
         while (true) {
-            int guess = player.makeGuess();
-            player.getGuesses().add(guess);
+            // Turno del primer jugador
+            int guess1 = player1.makeGuess();
+            player1.getGuesses().add(guess1);
 
-            if (guess < targetNumber) {
-                System.out.println("Too " + GREEN_BOLD + "low!" + RESET_COLOR + " Try again.");
-            } else if (guess > targetNumber) {
-                System.out.println("Too " + RED_BOLD + "high!" + RESET_COLOR + " Try again.");
-            } else {
-                System.out.println(YELLOW_BOLD + "Congratulations, " + RESET_COLOR + player.getName() + YELLOW_BOLD + "! You guessed the number!" + RESET_COLOR);
-                displayGuessHistory(player);
+            if (guess1 == targetNumber) {
+                System.out.println(YELLOW_BOLD + "Congratulations, " + RESET_COLOR + player1.getName() + YELLOW_BOLD + " !You guessed the number!" + RESET_COLOR);
                 break;
+            } else if (guess1 < targetNumber) {
+                System.out.println("Too " + GREEN_BOLD + "low! " + RESET_COLOR + player1.getName() + ", try again.");
+            } else {
+                System.out.println("Too " + RED_BOLD + "high! " + RESET_COLOR + player1.getName() + ", try again.");
+            }
+
+            // Turno del segundo jugador
+            int guess2 = player2.makeGuess();
+            player2.getGuesses().add(guess2);
+
+            if (guess2 == targetNumber) {
+                System.out.println(YELLOW_BOLD + "Congratulations, " + RESET_COLOR + "Computer Player" + YELLOW_BOLD + " !You guessed the number!" + RESET_COLOR);
+                break;
+            } else if (guess2 < targetNumber) {
+                System.out.println("Too " + GREEN_BOLD + "low! " + RESET_COLOR + "Computer Player" + ", try again.");
+            } else {
+                System.out.println("Too " + RED_BOLD + "high! " + RESET_COLOR + "Computer Player" + ", try again.");
             }
         }
     }

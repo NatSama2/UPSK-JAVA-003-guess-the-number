@@ -6,7 +6,10 @@ public class HumanPlayer extends Player {
 
 
   public static final String PURPLE_BACKGROUND = "\033[45m";
-  public static final String CYAN_TEXT = "\033[1;36m";
+  public static final String CYAN_BOLD = "\033[1;36m";
+  // public static final String CYAN_TEXT = "\033[0;36m";
+  public static final String WHITE_BOLD = "\033[1;37m"; 
+  public static final String YELLOW_TEXT = "\033[0;33m";
   public static final String RESET_COLOR = "\u001B[0m";
 
   private Scanner scanner;
@@ -20,15 +23,15 @@ public class HumanPlayer extends Player {
     System.out.print(PURPLE_BACKGROUND + "Enter your name: " + RESET_COLOR);
     String playerName = scanner.nextLine();
 
-    setName(CYAN_TEXT + playerName + RESET_COLOR);
+    setName(CYAN_BOLD + playerName + RESET_COLOR);
 
-    System.out.println("Hello, " + getName() + "! Let's play!");
+    System.out.println(YELLOW_TEXT + "Hello, " + RESET_COLOR + getName() + YELLOW_TEXT + " !Let's play!" + RESET_COLOR);
   }
   
   // Ingresar número
   @Override
   public int makeGuess() {
-    System.out.print("Enter a number between 1 and 100: ");
+    System.out.print(WHITE_BOLD + "Enter a number between 1 and 100: " + RESET_COLOR);
     int userGuess = scanner.nextInt();
 
     System.out.println("You entered: " + userGuess);
