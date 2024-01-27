@@ -1,0 +1,19 @@
+{
+  "java.classpath": [
+    "lib/junit-platform-console-standalone-1.10.1.jar",
+    "${workspaceFolder}/src",  
+    "${workspaceFolder}/test" 
+  ],
+
+  "java.test.config": [
+    {
+      "name": "myConfiguration",
+      "workingDirectory": "${workspaceFolder}",
+      "vmargs": ["-Xmx512M"],
+      "env": { "key": "value" }
+    },
+    {
+       // Otra configuración...
+    }
+  ]
+}
