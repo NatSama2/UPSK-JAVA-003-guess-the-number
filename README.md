@@ -3,7 +3,7 @@
 ## Índice
 1. [Resumen](#1-resumen)
 2. [Archivos](#2-archivos)
-   - [GuessTheNumberGame.java](#21-guessthenumbergamejava)
+   - [GuessTheNumberGame.java](#guessTheNumberGamejava)
    - [ComputerPlayer.java](#22-computerplayerjava)
    - [HumanPlayer.java](#23-humanplayerjava)
    - [Player.java](#24-playerjava)
@@ -25,9 +25,9 @@ Este proyecto implementa un sencillo juego de adivinanzas de números basado en 
 
 ## 2. Archivos
 
-1. **[GuessTheNumberGame.java](#21-guessthenumbergamejava):** La clase principal que orquesta el juego. Incluye métodos para generar un número aleatorio, jugar el juego y mostrar el historial de suposiciones.
+1. **GuessTheNumberGame.java:** La clase principal que orquesta el juego. Incluye métodos para generar un número aleatorio, jugar el juego y mostrar el historial de suposiciones.
 
-2. **[ComputerPlayer.java](#22-computerplayerjava):** Una clase que representa al jugador de computadora. Extiende la clase abstracta `Player` e implementa el método `makeGuess` para generar una suposición aleatoria.
+2. **ComputerPlayer.java:** Una clase que representa al jugador de computadora. Extiende la clase abstracta `Player` e implementa el método `makeGuess` para generar una suposición aleatoria.
 
 3. **HumanPlayer.java:** Una clase que representa al jugador humano. También extiende la clase `Player` e incluye métodos para ingresar el nombre del jugador y hacer una suposición.
 
