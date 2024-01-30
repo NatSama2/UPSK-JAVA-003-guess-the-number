@@ -3,7 +3,7 @@ package src;
 import java.util.Random;
 
 public class GuessTheNumberGame {
-  
+
   public static final String RED_COLOR = "\u001B[31m";
   public static final String GREEN_BOLD = "\033[1;32m";
   public static final String RED_BOLD = "\033[1;31m"; 
@@ -14,7 +14,7 @@ public class GuessTheNumberGame {
   public static int generateRandomNumber() {
     Random random = new Random();
     return random.nextInt(100) + 1;
-  }
+    }
 
   public static void main(String[] args) {
     System.out.println(" " + RED_COLOR );
@@ -26,28 +26,28 @@ public class GuessTheNumberGame {
     System.out.println("******************************************************\n" + RED_COLOR);
     System.out.print(RESET_COLOR);
     
-        // javac src/GuessTheNumberGame.java
-        // java -cp . src.GuessTheNumberGame
+      // javac src/GuessTheNumberGame.java
+      // java -cp . src.GuessTheNumberGame
 
-        // Generar el número aleatorio
-        int randomNumber = generateRandomNumber();
-        System.out.println("Random number generated: " + randomNumber);
+      // Generar el número aleatorio
+      int randomNumber = generateRandomNumber();
+      System.out.println("Random number generated: " + randomNumber);
 
-        // Crear jugadores
-        HumanPlayer humanPlayer = new HumanPlayer();
-        humanPlayer.enterName();
+      // Crear jugadores
+      HumanPlayer humanPlayer = new HumanPlayer();
+      humanPlayer.enterName();
 
-        ComputerPlayer computerPlayer = new ComputerPlayer();
+      ComputerPlayer computerPlayer = new ComputerPlayer();
 
-        // Juego con ambos jugadores
-        playGame(randomNumber, humanPlayer, computerPlayer);
+      // Juego con ambos jugadores
+      playGame(randomNumber, humanPlayer, computerPlayer);
 
-        // Mostrar la historia de suposiciones al final del juego
-        displayGuessHistory(humanPlayer);
-        // displayGuessHistory(computerPlayer);
+      // Mostrar la historia de suposiciones al final del juego
+      displayGuessHistory(humanPlayer);
+      // displayGuessHistory(computerPlayer);
     }
 
-    private static void playGame(int targetNumber, Player player1, Player player2) {
+    public static void playGame(int targetNumber, Player player1, Player player2) {
         while (true) {
             // Turno del primer jugador
             int guess1 = player1.makeGuess();

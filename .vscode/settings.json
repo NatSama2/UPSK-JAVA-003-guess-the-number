@@ -18,5 +18,12 @@
     "titleBar.inactiveBackground": "#83256199",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#832561"
+  "peacock.color": "#832561",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\Users\\Natalie\\Desktop\\[ Nat ]\\Recursos Dev\\Libreria mokito\\byte-buddy-1.14.10.jar",
+    "c:\\Users\\Natalie\\Desktop\\[ Nat ]\\Recursos Dev\\Libreria mokito\\byte-buddy-agent-1.14.10.jar",
+    "c:\\Users\\Natalie\\Desktop\\[ Nat ]\\Recursos Dev\\Libreria mokito\\mockito-core-5.8.0.jar",
+    "c:\\Users\\Natalie\\Desktop\\[ Nat ]\\Recursos Dev\\Libreria mokito\\objenesis-3.3.jar"
+  ]
 }
