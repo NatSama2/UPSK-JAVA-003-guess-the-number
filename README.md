@@ -119,3 +119,8 @@ java -cp "lib/junit-platform-console-standalone-1.10.1.jar;$(pwd)\src;$(pwd)\tes
 ## 8. Diviértete Jugando
 
 **_¡Diviértete jugando a GuessTheNumber!! 🎲🎮_**
+
+
+ /\_/\
+( o.o ) 
+ > ^ <  
