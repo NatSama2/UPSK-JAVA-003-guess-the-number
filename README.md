@@ -3,17 +3,17 @@
 ## Índice
 1. [Resumen](#1-resumen)
 2. [Archivos](#2-archivos)
-   - [GuessTheNumberGame.java](#2.1-guessthenumbergamejava)
-   - [ComputerPlayer.java](#2.2-computerplayerjava)
-   - [HumanPlayer.java](#2.3-humanplayerjava)
-   - [Player.java](#2.4-playerjava)
-   - [GuessTheNumberGameTest.java](#2.5-guessthenumbergametestjava)
+   - [GuessTheNumberGame.java](#21-guessthenumbergamejava)
+   - [ComputerPlayer.java](#22-computerplayerjava)
+   - [HumanPlayer.java](#23-humanplayerjava)
+   - [Player.java](#24-playerjava)
+   - [GuessTheNumberGameTest.java](#25-guessthenumbergametestjava)
 3. [Cómo Ejecutar](#3-cómo-ejecutar)
 4. [Jugabilidad](#4-jugabilidad)
 5. [Códigos de Colores](#5-códigos-de-colores)
 6. [Objetivos de Aprendizaje](#6-objetivos-de-aprendizaje)
-   - [Java](#6.1-java)
-   - [Programación Orientada a Objetos (OOP)](#6.2-programación-orientada-a-objetos-oop)
+   - [Java](#61-java)
+   - [Programación Orientada a Objetos (OOP)](#62-programación-orientada-a-objetos-oop)
 7. [Nota](#7-nota)
 8. [Diviértete Jugando](#8-diviértete-jugando)
 
@@ -25,9 +25,9 @@ Este proyecto implementa un sencillo juego de adivinanzas de números basado en 
 
 ## 2. Archivos
 
-1. **1.2 GuessTheNumberGame.java:** La clase principal que orquesta el juego. Incluye métodos para generar un número aleatorio, jugar el juego y mostrar el historial de suposiciones.
+1. **[GuessTheNumberGame.java](#21-guessthenumbergamejava):** La clase principal que orquesta el juego. Incluye métodos para generar un número aleatorio, jugar el juego y mostrar el historial de suposiciones.
 
-2. **ComputerPlayer.java:** Una clase que representa al jugador de computadora. Extiende la clase abstracta `Player` e implementa el método `makeGuess` para generar una suposición aleatoria.
+2. **[ComputerPlayer.java](#22-computerplayerjava):** Una clase que representa al jugador de computadora. Extiende la clase abstracta `Player` e implementa el método `makeGuess` para generar una suposición aleatoria.
 
 3. **HumanPlayer.java:** Una clase que representa al jugador humano. También extiende la clase `Player` e incluye métodos para ingresar el nombre del jugador y hacer una suposición.
 
