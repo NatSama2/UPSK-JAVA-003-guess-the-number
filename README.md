@@ -3,7 +3,7 @@
 ## Índice
 1. [Resumen](#1-resumen)
 2. [Archivos](#2-archivos)
-   - [GuessTheNumberGame.java](#1-**guessTheNumberGamejava:**)
+   - [GuessTheNumberGame.java](#guessthenumbergamejava)
    - [ComputerPlayer.java](#22-computerplayerjava)
    - [HumanPlayer.java](#23-humanplayerjava)
    - [Player.java](#24-playerjava)
@@ -125,4 +125,4 @@ java -cp "lib/junit-platform-console-standalone-1.10.1.jar;$(pwd)\src;$(pwd)\tes
 
 ## 8. Diviértete Jugando
 
-**_¡Diviértete construyendo tu juego de adivinanza de números! 🎲🎮_**
+**_¡Diviértete jugando a GuessTheNumber!! 🎲🎮_**
