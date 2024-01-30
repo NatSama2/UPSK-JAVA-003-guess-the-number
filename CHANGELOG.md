@@ -24,3 +24,31 @@
 ### Removed
 
 - Aun no hay funcionalidades eliminadas.
+
+--- 
+
+## <1.0.0> - <2024-01-29>
+
+### Sprint learnings
+
+- Aprender a codear el java.
+- El juego funciona para jugador humano y para computadora.
+- Leer sobre test y sus instalaciones.
+
+### Added
+
+- Se agregaron las funciones para que funcione el juego.
+- Se agregan colores con ANSI.
+- Se hacen instalaciones para los test y se instalan las librerias. 
+
+### Changed
+
+- Se módifica readme. 
+
+### Fixed
+
+- Aun no hay bugs que solucionar.
+
+### Removed
+
+- Aun no hay funcionalidades eliminadas.
