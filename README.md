@@ -121,6 +121,4 @@ java -cp "lib/junit-platform-console-standalone-1.10.1.jar;$(pwd)\src;$(pwd)\tes
 **_¡Diviértete jugando a GuessTheNumber!! 🎲🎮_**
 
 
-` /\_/\ ` <br>
-`( o.o ) ` <br>
-` > ^ <  ` <br>
+` /\_/\`<br> `( o.o )`<br>  ` > ^ <  ` <br>
