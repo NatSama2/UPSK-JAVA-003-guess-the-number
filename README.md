@@ -3,17 +3,10 @@
 ## Índice
 1. [Resumen](#1-resumen)
 2. [Archivos](#2-archivos)
-   - [GuessTheNumberGame.java](#guessthenumbergamejava)
-   - [ComputerPlayer.java](#22-computerplayerjava)
-   - [HumanPlayer.java](#23-humanplayerjava)
-   - [Player.java](#24-playerjava)
-   - [GuessTheNumberGameTest.java](#25-guessthenumbergametestjava)
 3. [Cómo Ejecutar](#3-cómo-ejecutar)
 4. [Jugabilidad](#4-jugabilidad)
 5. [Códigos de Colores](#5-códigos-de-colores)
 6. [Objetivos de Aprendizaje](#6-objetivos-de-aprendizaje)
-   - [Java](#61-java)
-   - [Programación Orientada a Objetos (OOP)](#62-programación-orientada-a-objetos-oop)
 7. [Nota](#7-nota)
 8. [Diviértete Jugando](#8-diviértete-jugando)
 
