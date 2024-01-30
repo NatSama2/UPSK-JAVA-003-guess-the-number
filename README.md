@@ -3,7 +3,7 @@
 ## Índice
 1. [Resumen](#1-resumen)
 2. [Archivos](#2-archivos)
-   - [GuessTheNumberGame.java](#guessTheNumberGamejava)
+   - [GuessTheNumberGame.java](#**1-guessTheNumberGamejava**)
    - [ComputerPlayer.java](#22-computerplayerjava)
    - [HumanPlayer.java](#23-humanplayerjava)
    - [Player.java](#24-playerjava)
