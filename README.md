@@ -122,5 +122,7 @@ java -cp "lib/junit-platform-console-standalone-1.10.1.jar;$(pwd)\src;$(pwd)\tes
 
 
 ` /\_/\ `
+
 `( o.o ) `
+
 ` > ^ <  `
