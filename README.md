@@ -1,21 +1,21 @@
 # Adivina el Número - Guess the Number
 
 ## Índice
-1. [Resumen](#resumen)
-2. [Archivos](#archivos)
-   - [GuessTheNumberGame.java](#guessthenumbergamejava)
-   - [ComputerPlayer.java](#computerplayerjava)
-   - [HumanPlayer.java](#humanplayerjava)
-   - [Player.java](#playerjava)
-   - [GuessTheNumberGameTest.java](#guessthenumbergametestjava)
-3. [Cómo Ejecutar](#cómo-ejecutar)
-4. [Jugabilidad](#jugabilidad)
-5. [Códigos de Colores](#códigos-de-colores)
-6. [Objetivos de Aprendizaje](#objetivos-de-aprendizaje)
-   - [Java](#java)
-   - [Programación Orientada a Objetos (OOP)](#programación-orientada-a-objetos-oop)
-7. [Nota](#nota)
-8. [Diviértete Jugando](#diviértete-jugando)
+1. [Resumen](#1-resumen)
+2. [Archivos](#2-archivos)
+   - [GuessTheNumberGame.java](#2.1-guessthenumbergamejava)
+   - [ComputerPlayer.java](#2.2-computerplayerjava)
+   - [HumanPlayer.java](#2.3-humanplayerjava)
+   - [Player.java](#2.4-playerjava)
+   - [GuessTheNumberGameTest.java](#2.5-guessthenumbergametestjava)
+3. [Cómo Ejecutar](#3-cómo-ejecutar)
+4. [Jugabilidad](#4-jugabilidad)
+5. [Códigos de Colores](#5-códigos-de-colores)
+6. [Objetivos de Aprendizaje](#6-objetivos-de-aprendizaje)
+   - [Java](#6.1-java)
+   - [Programación Orientada a Objetos (OOP)](#6.2-programación-orientada-a-objetos-oop)
+7. [Nota](#7-nota)
+8. [Diviértete Jugando](#8-diviértete-jugando)
 
 
 ## 1. Resumen
@@ -25,7 +25,7 @@ Este proyecto implementa un sencillo juego de adivinanzas de números basado en 
 
 ## 2. Archivos
 
-1. **GuessTheNumberGame.java:** La clase principal que orquesta el juego. Incluye métodos para generar un número aleatorio, jugar el juego y mostrar el historial de suposiciones.
+1. **1.2 GuessTheNumberGame.java:** La clase principal que orquesta el juego. Incluye métodos para generar un número aleatorio, jugar el juego y mostrar el historial de suposiciones.
 
 2. **ComputerPlayer.java:** Una clase que representa al jugador de computadora. Extiende la clase abstracta `Player` e implementa el método `makeGuess` para generar una suposición aleatoria.
 
