@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class GuessTheNumberGame {
 
-  public static final String RED_COLOR = "\u001B[31m";
+  public static final String CYAN_COLOR = "\033[0;36m";
   public static final String GREEN_BOLD = "\033[1;32m";
   public static final String RED_BOLD = "\033[1;31m"; 
   public static final String YELLOW_BOLD = "\033[1;33m";
@@ -17,13 +17,13 @@ public class GuessTheNumberGame {
     }
 
   public static void main(String[] args) {
-    System.out.println(" " + RED_COLOR );
-    System.out.println("******************************************************" + RED_COLOR);
-    System.out.println("*                                                    *" + RED_COLOR);
-    System.out.println("*               Welcome to GuessTheNumber            *" + RED_COLOR);
-    System.out.println("*                       Game                         *" + RED_COLOR);
-    System.out.println("*                                                    *" + RED_COLOR);
-    System.out.println("******************************************************\n" + RED_COLOR);
+    System.out.println(" " + CYAN_COLOR );
+    System.out.println("******************************************************" + CYAN_COLOR);
+    System.out.println("*                                                    *" + CYAN_COLOR);
+    System.out.println("*               Welcome to GuessTheNumber            *" + CYAN_COLOR);
+    System.out.println("*                       Game                         *" + CYAN_COLOR);
+    System.out.println("*                                                    *" + CYAN_COLOR);
+    System.out.println("******************************************************\n" + CYAN_COLOR);
     System.out.print(RESET_COLOR);
     
       // javac src/GuessTheNumberGame.java
