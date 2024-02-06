@@ -52,3 +52,31 @@
 ### Removed
 
 - Aun no hay funcionalidades eliminadas.
+
+--- 
+
+## <1.0.0> - <2024-02-05>
+
+### Sprint learnings
+
+- Aprender sobre test.
+- Estudiar sobre jUnit y mokito.
+
+### Added
+
+- Se agregan mensajes de error al poner una letra o número que no este entre 1 y 100.
+- Se agrega que deba existir un nombre de jugador. 
+- Se hacen mas test.
+
+### Changed
+
+- Se módifica readme. 
+- Se módifica HumanPlayer para que no sea obligatorio poner nombre y mensajes de error al escribir números.
+
+### Fixed
+
+- Aun no hay bugs que solucionar.
+
+### Removed
+
+- Aun no hay funcionalidades eliminadas.
